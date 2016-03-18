@@ -1,0 +1,39 @@
+.title{
+  text-transform: uppercase;
+  font-size: 2em;
+  color: @brand-primary;
+  margin-bottom: 30px;
+
+  >span{
+    position: relative;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: @brand-danger;
+      width: 50%;
+      height: 5px;
+      bottom: -7px;
+      left: 0px;
+      margin-top: 5px;
+    }
+  }
+
+  .bg-danger-dark & {
+    color: @brand-white;
+    >span:after{
+      background-color: @brand-primary;
+    }
+  }
+
+  .bg-primary-dark &{
+    color: @brand-white;
+    >span:after{
+      background-color: @brand-danger;
+    }
+  }
+}
+
+.bg-danger-dark, .bg-primary-dark {
+  color: @brand-white;
+}

@@ -1,0 +1,52 @@
+.section-step-1 {
+  background-image: url("../images/computer.jpg");
+  background-repeat: no-repeat;
+  background-size: 130% auto;
+  background-position: center;
+
+  .inner {
+    .gradient-vertical(rgba(0,0,0,0),@brand-primary);
+    position: relative;
+    height: 100%;
+    bottom: 0px;
+  }
+
+  .logo{
+    width: 100%;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+
+    a{
+      display: block;
+      text-align: center;
+    }
+
+    h1 {
+      font-size:1.5em;
+      color: @brand-white;
+      text-align: center;
+    }
+  }
+}
+
+.section-step-2{
+  color: @brand-white;
+  .content-picture {
+    .text-center();
+    img{
+      width: 250px;
+    }
+  }
+}
+
+.section-step-3,.section-step-5{
+  background-image: url("../images/face-he.png");
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: -200px center;
+}
+
+.section-step-5{
+  background-position: 120% center;
+}

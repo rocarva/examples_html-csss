@@ -1,0 +1,21 @@
+@brand-danger : #000000;
+
+@font-family-sans-serif: "Courier New", Verdana;
+
+@font-family-serif: @font-family-sans-serif;
+
+@media (max-width: 350px) {
+
+  body {
+    background-color: @brand-danger;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  body {
+    background-color: #F00;
+  }
+
+}

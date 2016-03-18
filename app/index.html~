@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Aula 2 - HTML</title>
+
+ 		<!-- IE HACK Para HTML5 -->
+	<link rel="stylesheet" type="text/css" href="css/assets/styles/less/main.css" />
+	</head>
+	
+	<body>
+		<div class="btn-group">
+			<span>paginas</span>
+			<button class="btn btn-primary">Button</button>
+			<button class="btn btn-info">Button</button>
+			<button class="btn btn-danger">Button</button>
+			<button class="btn btn-warning">Button</button>
+			<button class="btn btn-success">Button</button>
+		</div>
+		
+	</body>
+</html>
+
